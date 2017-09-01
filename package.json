@@ -1,0 +1,26 @@
+{
+  "name": "route-calculator",
+  "version": "1.0.0",
+  "description": "Given multiple destinations chooses the best route based on shortest distance",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/**.spec.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.3",
+    "async": "^2.5.0",
+    "body-parser": "^1.17.2",
+    "crypto": "^1.0.1",
+    "express": "^4.15.4",
+    "open": "0.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.5.0"
+  }
+}
